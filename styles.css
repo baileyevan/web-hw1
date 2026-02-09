@@ -34,13 +34,13 @@ a {
 }
 
 .vh {
-    height: 50vh;
+    height: 100vh;
 }
 
 #navbar {
     width: 100%;
     background-color: var(--nav-color);
-    height: 9vh;
+    height: 10vh;
     position: fixed;
 }
 #navbar ul {
@@ -158,7 +158,6 @@ a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 50vh;
 }
 
 #assignment-header {
@@ -221,14 +220,13 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 75vh;
 }
 
 #interests-section h3 {
     text-align: center;
     width: 100%;
     margin-top: 5%;
-    margin-bottom: 10vh;
+    margin-bottom: 5%;
     font-family: 'serif', 'Times New Roman', 'Times';
     font-size: xx-large;
 }
@@ -250,7 +248,7 @@ a {
     text-align: center;
     height: 80%;
     border-radius: 15%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,7 +270,7 @@ a {
 
 .interest-card img {
     width: 80%;
-    height: 60%;
+    height: 50%;
     border-radius: 5%;
 }
 
