@@ -158,6 +158,7 @@ a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 50vh;
 }
 
 #assignment-header {
@@ -179,38 +180,115 @@ a {
     margin-left: 2.5%;
     margin-right: 2.5%;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(218, 218, 218);
     border: black 2px;
     border-style: solid;
+    height: 100%;
 }
 
 .assignment-card h3 {
     width: 80%;
-    margin-top: 10px;
+    margin-top: 10%;
+    margin-bottom: 10px;
 }
 
 .assignment-card img {
     height: 50%;
     width: 90%;
     border-radius: 25%;
+    margin-bottom: 10px;
 }
 
 .assignment-card span {
     width: 90%;
+    margin-bottom: 10px;
+}
+
+.assignment-card a {
+    width: 90%;
+    margin-bottom: 10px;
 }
 
 #interests-section {
     background-color: rgba(174, 209, 255, 0.425);
     scroll-margin-top: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#interests-section h3 {
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'serif', 'Times New Roman', 'Times';
+    font-size: xx-large;
+}
+
+#interest-card-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 80%;
+    
+}
+
+.interest-card {
+    width: 30%;
+    background-color: rgb(216, 216, 216);
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    height: 90%;
+    border-radius: 15%;
+}
+
+.interest-card h4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+.interest-card span {
+    width: 80%;
+
+}
+
+
+
+
+
+
 
 #contact-information-section {
     height: 10vh;
     background-color: rgb(242, 242, 242);
     scroll-margin-top: 30vh;
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#contact-ul {
+    display: inline;
+    text-align: center;
+}
+
+.contact-item {
+    display: inline;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
