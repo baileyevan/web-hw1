@@ -221,13 +221,14 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 75vh;
 }
 
 #interests-section h3 {
     text-align: center;
     width: 100%;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10vh;
     font-family: 'serif', 'Times New Roman', 'Times';
     font-size: xx-large;
 }
@@ -237,8 +238,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
-    height: 80%;
+    height: 90%;
     
 }
 
@@ -248,8 +248,15 @@ a {
     margin-left: 3%;
     margin-right: 3%;
     text-align: center;
-    height: 90%;
+    height: 80%;
     border-radius: 15%;
+    margin-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 218, 218);
+    border: black 2px;
+    border-style: solid;
 }
 
 .interest-card h4 {
@@ -260,14 +267,14 @@ a {
 
 .interest-card span {
     width: 80%;
-
+    margin-bottom: 10%;
 }
 
-
-
-
-
-
+.interest-card img {
+    width: 80%;
+    height: 60%;
+    border-radius: 5%;
+}
 
 #contact-information-section {
     height: 10vh;
@@ -284,11 +291,16 @@ a {
 #contact-ul {
     display: inline;
     text-align: center;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-item {
     display: inline;
-    text-align: center;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
 }
